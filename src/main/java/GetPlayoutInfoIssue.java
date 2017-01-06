@@ -60,8 +60,8 @@ class TestThread2 {
 
     public static void main(String args[]) throws InterruptedException {
         //CHANGE THE IP HERE
-        String ip = "10.10.30.30";
-        String port = "9000";
+        String ip = ;
+        String port = ;
         for (int i = 0; i < 10; i++) {
             GetPlayoutInfoIssue T1 = new GetPlayoutInfoIssue("Thread-" + i, ip, port);
             T1.start();

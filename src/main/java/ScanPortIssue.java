@@ -68,8 +68,8 @@ class TestThread1 {
 
     public static void main(String args[]) throws InterruptedException {
         //CHANGE THE IP HERE
-        String ip = "10.10.30.30";
-        String port = "9000";
+        String ip = ;
+        String port = ;
         for (int i = 0; i < 10; i++) {
             ScanPortIssue T1 = new ScanPortIssue("Thread-" + i, ip, port);
             T1.start();

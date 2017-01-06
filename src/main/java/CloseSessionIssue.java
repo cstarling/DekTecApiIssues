@@ -43,8 +43,8 @@ class TestThread {
     public static void main(String args[]) throws InterruptedException {
         //CHANGE THE IP HERE
 
-        String ip = "10.10.30.30";
-        String port = "9000";
+        String ip = ;
+        String port = ;
         for (int i = 0; i < 10; i++) {
             CloseSessionIssue R1 = new CloseSessionIssue("Thread-" + i, ip, port);
             R1.start();
