@@ -43,7 +43,7 @@ class ScanPortIssue implements Runnable {
         Holder<PortDescArray> portDescArrayHolder = new Holder<>();
         Holder<Long> spRcResultHolderScanPorts = new Holder<>();
         spRcPortType.scanPorts(portDescArrayHolder, spRcResultHolderScanPorts);
-        System.out.println("spRcResultHolderScanPorts = " + spRcResultHolderScanPorts);
+        System.out.println("spRcResultHolderScanPorts = " + spRcResultHolderScanPorts.value);
         System.out.println("portDescArrayHolder.value = " + portDescArrayHolder.value + "::Thread Name: " + threadName);
 
         try {
